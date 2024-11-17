@@ -3,6 +3,9 @@
 ## Project Overview
 This project aims to develop a predictive model for residential energy consumption using machine learning techniques. It also analyzes the impact of various tariff structures on consumer behavior. By accurately predicting energy demand, utilities can optimize their operations, and consumers can manage their energy usage more effectively, leading to cost savings and improved energy efficiency.
 
+##Overview
+![7f544af1-1730-4d82-b40b-2ca0061c3ae5](https://github.com/user-attachments/assets/2f204d09-3a0e-4de0-8ed7-0e4e7288aec2)
+
 ## Table of Contents
 - [Motivation](#motivation)
 - [Research Focus](#research-focus)
