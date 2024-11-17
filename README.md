@@ -9,13 +9,6 @@ This project aims to develop a predictive model for residential energy consumpti
 - [Objectives](#objectives)
 - [Methodology](#methodology)
 - [Data Collection](#data-collection)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Results](#results)
-- [Future Work](#future-work)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 ## Motivation
 With the increasing demand for electricity and the need for sustainable energy practices, understanding residential energy consumption patterns is crucial. This project addresses the challenge of predicting energy load and optimizing tariff structures to encourage energy conservation among consumers.
