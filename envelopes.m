@@ -4,7 +4,6 @@ clc
 data=load('full_dataset.mat');
 loads_non_normal = data.full_dataset(:,:,1);
 loads_non_normal = movmean(loads_non_normal,6);
-
 temperature_non_normal = data.full_dataset(:,:,2);
 energy_cost_non_normal = data.full_dataset(:,:,3);
  t = 0:0.25:23.75;
