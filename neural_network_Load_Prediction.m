@@ -98,6 +98,7 @@ saved_cost = movmean(saved_cost,5);
 set(gca,'fontname','times','FontSize', 15)
 plot(t,saved_cost,'b','LineWidth', 1.5);
 legend('Energy price range','Energy price mean','Case study energy price','Location','northwest')
+%data fetch
 axis([0 24 0.1 0.22])
 set(gca, 'Box', 'off', 'TickDir', 'out', 'TickLength', [.02 .02], ...
     'XMinorTick', 'off', 'YMinorTick', 'on', 'YGrid', 'off', ...
