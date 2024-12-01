@@ -1,15 +1,12 @@
 clear all;
 close all;
 clc;
-
-
 A=load('home_loads.mat');
 loads=A.final_home_load;
 B=load('ota.mat');
 energy_cost=B.table_final;
 C=load('temperatures.mat');
 temperature=C.temperature_super_final;
-
 %% ---- Load Temparature correlation
 cor_matrix = zeros(31,31);
 for columns= 1:31
@@ -49,15 +46,3 @@ for i = 1:31
     full_dataset(i,1:96,2) = temperature(load_temperature_dataset(i,2),:);
     full_dataset(i,1:96,3) = energy_cost(load_cost_dataset(i,2),:);
 end
-
-
-
-
-
-% for i=1:31
-%     [~,t] = max(cor_matrix(i,:))
-% end
-%
-% for i=1:31
-%     [~,t] = max(cor_matrix(:,i))
-% end
